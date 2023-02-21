@@ -1,0 +1,21 @@
+IDEAS FOR THE FUTURE ?
+======================
+
+FIN
+FOUT
+CIN
+
+
+one-wire support
+SPI NAND flash file device with CS# on pin 1
+keypad
+temperature/humidity
+GPS/IMU
+dynamic 7-segment indication
+TFT panels on SPI/I2C
+resistive touch panels
+capacitive touch panels on I2C
+sound
+GUI functions
+
+

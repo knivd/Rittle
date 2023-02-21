@@ -1,0 +1,781 @@
+# depslib dependency file v1.0
+1592139342 source:k:\work\rittle\core\fatfs\source\ff.c
+	"ff.h"
+	"diskio.h"
+	<stdarg.h>
+
+1571051634 k:\work\rittle\core\fatfs\source\ff.h
+	"ffconf.h"
+	<windows.h>
+	<stdint.h>
+
+1592139824 k:\work\rittle\core\fatfs\source\ffconf.h
+
+1592127948 k:\work\rittle\core\fatfs\source\diskio.h
+	"ff.h"
+
+1554197716 source:k:\work\rittle\core\fatfs\source\ffsystem.c
+	"ff.h"
+	"..\..\xmem.h"
+
+1557322273 k:\work\rittle\core\xmem.h
+
+1539555656 source:k:\work\rittle\core\fatfs\source\ffunicode.c
+	"ff.h"
+
+1558850278 source:k:\work\rittle\core\main.c
+	"rittle.h"
+
+1553703514 k:\work\rittle\pic32mzef\cfg_bits.h
+
+1592297688 k:\work\rittle\pic32mzef\platform.h
+	"..\core\rittle.h"
+	"..\pic32mzef\plibs\plib.h"
+	"..\pic32mzef\addons.h"
+	"..\pic32mzef\drivers\drv_lcd4.h"
+	"..\pic32mzef\drivers\drv_lcds.h"
+	"..\pic32mzef\drivers\drv_trspi.h"
+
+1557600659 k:\work\rittle\pic32mzef\plibmz\plib_mz.h
+	<xc.h>
+	"peripheral_mz/adc12.h"
+	"peripheral_mz/cmp.h"
+	"peripheral_mz/cvref.h"
+	"peripheral_mz/dma.h"
+	"peripheral_mz/i2c.h"
+	"peripheral_mz/incap.h"
+	"peripheral_mz/int.h"
+	"peripheral_mz/lock.h"
+	"peripheral_mz/nvm.h"
+	"peripheral_mz/osc.h"
+	"peripheral_mz/outcompare.h"
+	"peripheral_mz/pcache.h"
+	"peripheral_mz/pmp.h"
+	"peripheral_mz/ports.h"
+	"peripheral_mz/pps.h"
+	"peripheral_mz/power.h"
+	"peripheral_mz/reset.h"
+	"peripheral_mz/spi.h"
+	"peripheral_mz/system.h"
+	"peripheral_mz/timer.h"
+	"peripheral_mz/rtcc.h"
+	"peripheral_mz/uart.h"
+	"peripheral_mz/wdt.h"
+
+1479544074 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\adc12.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1479459776 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\int.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	<stdint.h>
+	<sys/attribs.h>
+
+1479324942 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\cmp.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479324958 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\cvref.h
+	<xc.h>
+
+1479324968 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\dma.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479324978 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\i2c.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1479324988 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\incap.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1480585950 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\lock.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1482479524 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\nvm.h
+	<xc.h>
+	"../peripheral_mz/common.h"
+	"../peripheral_mz/int.h"
+
+1479324948 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\common.h
+	<assert.h>
+	<stdint.h>
+	<string.h>
+	<sys/kmem.h>
+
+1480660654 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\osc.h
+	<xc.h>
+	"../peripheral_mz/common.h"
+
+1479325058 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\outcompare.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479325094 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\pcache.h
+	<xc.h>
+
+1479325102 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\pmp.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479521852 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\ports.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479325126 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\pps.h
+	<xc.h>
+
+1479454570 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\power.h
+	<xc.h>
+	"../peripheral_mz/lock.h"
+
+1480024998 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\reset.h
+	<xc.h>
+	"../peripheral_mz/lock.h"
+
+1479325148 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\spi.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1480640856 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\system.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+	"../peripheral_mz/lock.h"
+	"../peripheral_mz/pcache.h"
+
+1479544816 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\timer.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1480665816 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\uart.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1479454770 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\wdt.h
+	<xc.h>
+
+1567679134 k:\work\rittle\codeblocks\platform.h
+	<stdio.h>
+	<time.h>
+	"..\core\rittle.h"
+
+1592298441 k:\work\rittle\core\rittle.h
+	"..\codeblocks\platform.h"
+	"..\pic32mzef\platform.h"
+	<conio.h>
+	<limits.h>
+	"xmem.h"
+	"fatfs/source/ff.h"
+	"rsc.h"
+	"ride.h"
+	"rvm.h"
+
+1592298745 source:k:\work\rittle\core\ride.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"ride.h"
+
+1544381120 k:\work\rittle\core\limits.h
+
+1555241303 k:\work\rittle\core\ride.h
+	"rittle.h"
+
+1555241303 k:\work\rittle\core\rsc.h
+	"rittle.h"
+
+1592304012 k:\work\rittle\core\rvm.h
+	"rittle.h"
+
+1592300250 source:k:\work\rittle\core\rittle.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"rittle.h"
+
+1592235542 source:k:\work\rittle\core\rsc.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"rsc.h"
+
+1592304142 source:k:\work\rittle\core\rvm.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<math.h>
+	"rvm.h"
+	"..\pic32mzef\tokens.c"
+
+1557322299 source:k:\work\rittle\core\xmem.c
+	<string.h>
+	"xmem.h"
+
+1592298609 source:k:\work\rittle\codeblocks\diskio.c
+	"..\core\fatfs\source\diskio.h"
+	"platform.h"
+
+1558383228 source:k:\work\rittle\codeblocks\platform.c
+	"platform.h"
+
+1562497360 k:\work\rittle\pic32mzef\addons.h
+	"platform.h"
+
+1561829229 k:\work\rittle\pic32mzef\tokens.c
+
+1557600361 k:\work\rittle\pic32mzef\plibmz\peripheral_mz\rtcc.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1555498859 k:\work\rittle\core\main.h
+
+1477913915 k:\work\rittle\pic32mzef\usb\driver\usb\usbhs\drv_usbhs.h
+	<stdint.h>
+	<stdbool.h>
+	"../../../usb/usb_common.h"
+	"../../../usb/usb_chapter_9.h"
+	"../../driver_common.h"
+	"../drv_usb.h"
+	"../../../system/common/sys_module.h"
+	"../../../peripheral/usbhs/plib_usbhs.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\usb\usb_common.h
+	<limits.h>
+
+1467735659 k:\work\rittle\pic32mzef\usb\usb\usb_chapter_9.h
+	<stdint.h>
+
+1558252201 k:\work\rittle\pic32mzef\usb\driver\driver_common.h
+	<stdint.h>
+	<stddef.h>
+	"../../plibmz/plib_mz.h"
+
+1477128607 k:\work\rittle\pic32mzef\usb\driver\usb\drv_usb.h
+	<stdint.h>
+	<stdbool.h>
+	"../../usb/usb_common.h"
+	"../../usb/usb_chapter_9.h"
+	"../driver_common.h"
+	"../../system/common/sys_module.h"
+
+1477484112 k:\work\rittle\pic32mzef\usb\system\common\sys_module.h
+	<stdint.h>
+	<stdbool.h>
+	"assert.h"
+	"sys_common.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\system\common\sys_common.h
+	<stdint.h>
+	<stddef.h>
+	<string.h>
+	"assert.h"
+
+1476992343 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\plib_usbhs.h
+	<stdint.h>
+	<stdbool.h>
+	"usbhs_processor.h"
+	"usbhs_processor.h"
+
+1477296315 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\usbhs_processor.h
+	<xc.h>
+	<stdbool.h>
+	"../peripheral_common_32bit.h"
+	"./templates/usbhs_EndpointFIFO_Default.h"
+	"./templates/usbhs_SoftReset_Default.h"
+	"./templates/usbhs_Interrupts_Default.h"
+	"./templates/usbhs_HighSpeedSupport_Default.h"
+	"./templates/usbhs_ClockResetControl_Default.h"
+	"./templates/usbhs_USBIDControl_Default.h"
+	"./templates/usbhs_ModuleControl_Default.h"
+	"./templates/usbhs_EP0Status_Default.h"
+	"./templates/usbhs_TxEPStatus_Default.h"
+	"./templates/usbhs_RxEPStatus_Default.h"
+	"./templates/usbhs_EndpointOperations_Default.h"
+
+1477125969 k:\work\rittle\pic32mzef\usb\peripheral\peripheral_common_32bit.h
+	<assert.h>
+	<stdint.h>
+	"peripheral_common.h"
+
+1558252233 k:\work\rittle\pic32mzef\usb\peripheral\peripheral_common.h
+	<assert.h>
+	"../../plibmz/plib_mz.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_endpointfifo_default.h
+	"usbhs_registers.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_registers.h
+	<p32xxxx.h>
+	<stdint.h>
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_softreset_default.h
+	"usbhs_registers.h"
+
+1477044286 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_interrupts_default.h
+	"usbhs_registers.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_highspeedsupport_default.h
+	<sys/kmem.h>
+	"usbhs_registers.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_clockresetcontrol_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_usbidcontrol_default.h
+	"usbhs_registers.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_modulecontrol_default.h
+	"usbhs_registers.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_ep0status_default.h
+	"usbhs_registers.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_txepstatus_default.h
+	"usbhs_registers.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_rxepstatus_default.h
+	"usbhs_registers.h"
+
+1467756522 k:\work\rittle\pic32mzef\usb\peripheral\usbhs\templates\usbhs_endpointoperations_default.h
+	"usbhs_registers.h"
+
+1481246328 k:\work\rittle\pic32mzef\usb\usb\usb_device.h
+	<stdint.h>
+	<stdbool.h>
+	"../usb_system_config.h"
+	"../system/system.h"
+	"../driver/driver_common.h"
+	"usb_common.h"
+	"usb_chapter_9.h"
+	"../driver/usb/drv_usb.h"
+	"../driver/nvm/drv_nvm.h"
+	"../peripheral/usbhs/plib_usbhs.h"
+	"../peripheral/timer/utimer.h"
+	"src/usb_device_mapping.h"
+
+1481672652 k:\work\rittle\pic32mzef\usb\usb_system_config.h
+	"osal/osal.h"
+	"system/system.h"
+
+1476967518 k:\work\rittle\pic32mzef\usb\osal\osal.h
+	<stdint.h>
+	<stdbool.h>
+	"../usb_system_config.h"
+	"osal_definitions.h"
+
+1476967679 k:\work\rittle\pic32mzef\usb\osal\osal_definitions.h
+	"src/osal_impl_basic.h"
+	"osal/src/osal_impl_none.h"
+	"osal/src/osal_user.h"
+	"osal/src/osal_freertos.h"
+	"osal/src/osal_freertos_v7xx.h"
+	"osal/src/osal_openrtos.h"
+	"osal/src/osal_openrtos_v7xx.h"
+	"osal/src/osal_ucos3.h"
+	"osal/src/osal_ucos2.h"
+	"osal/src/osal_threadx.h"
+	"osal/src/osal_embos.h"
+
+1477123374 k:\work\rittle\pic32mzef\usb\osal\src\osal_impl_basic.h
+	<stdint.h>
+	<stdbool.h>
+	<xc.h>
+
+1558252258 k:\work\rittle\pic32mzef\usb\system\system.h
+	"system/system.h"
+	"../../plibmz/plib_mz.h"
+	"common/sys_common.h"
+	"common/sys_module.h"
+	"int/sys_int.h"
+
+1480973356 k:\work\rittle\pic32mzef\usb\system\int\sys_int.h
+	"../../usb_system_config.h"
+	"../../system/common/sys_common.h"
+	"../../system/common/sys_module.h"
+	"../../peripheral/int/plib_int.h"
+	"sys_int_mapping.h"
+	"sys_int_mapping.h"
+
+1480967959 k:\work\rittle\pic32mzef\usb\peripheral\int\plib_int.h
+	<stdint.h>
+	<stddef.h>
+	"int_processor.h"
+
+1480969883 k:\work\rittle\pic32mzef\usb\peripheral\int\int_processor.h
+	<xc.h>
+	<stdbool.h>
+	"../peripheral_common_32bit.h"
+	"templates/int_SingleVectorShadowSet_Default.h"
+	"templates/int_VectorSelect_Default.h"
+	"templates/int_ProximityTimerEnable_Default.h"
+	"templates/int_ProximityTimerControl_Default.h"
+	"templates/int_ExternalINTEdgeSelect_Default.h"
+	"templates/int_INTCPUPriority_Default.h"
+	"templates/int_INTCPUVector_Default.h"
+	"templates/int_SourceFlag_Default.h"
+	"templates/int_SourceControl_Default.h"
+	"templates/int_VectorPriority_Default.h"
+	"templates/int_CPUCurrentPriorityLevel_Default.h"
+	"templates/int_EnableControl_PIC32.h"
+	"templates/int_ShadowRegisterAssign_Default.h"
+	"templates/int_VariableOffset_Default.h"
+	"templates/int_SoftwareNMI_Default.h"
+
+1467735659 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_singlevectorshadowset_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_vectorselect_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_proximitytimerenable_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_proximitytimercontrol_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_externalintedgeselect_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_intcpupriority_default.h
+
+1467735659 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_intcpuvector_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_sourceflag_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_sourcecontrol_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_vectorpriority_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_cpucurrentprioritylevel_default.h
+
+1480968897 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_enablecontrol_pic32.h
+	"../plib_int_private_pic32.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\plib_int_private_pic32.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_shadowregisterassign_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_variableoffset_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\int\templates\int_softwarenmi_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\system\int\sys_int_mapping.h
+
+1480971537 k:\work\rittle\pic32mzef\usb\driver\nvm\drv_nvm.h
+	"../../usb_system_config.h"
+	"../../system/common/sys_common.h"
+	"../driver_common.h"
+	"../../system/common/sys_module.h"
+	"../../system/int/sys_int.h"
+	"../../osal/osal.h"
+	"../../peripheral/int/plib_int.h"
+	"../../peripheral/nvm/plib_nvm.h"
+	"../../system/fs/sys_fs_media_manager.h"
+
+1480963805 k:\work\rittle\pic32mzef\usb\peripheral\nvm\plib_nvm.h
+	"nvm_processor.h"
+
+1480969947 k:\work\rittle\pic32mzef\usb\peripheral\nvm\nvm_processor.h
+	<xc.h>
+	<stdbool.h>
+	"../peripheral_common_32bit.h"
+	"templates/nvm_WriteErrorStatus_Default.h"
+	"templates/nvm_MemoryModificationControl_Default.h"
+	"templates/nvm_OperationMode_Default.h"
+	"templates/nvm_AddressModifyControl_Default.h"
+	"templates/nvm_ProvideData_Default.h"
+	"templates/nvm_WriteOperation_Default.h"
+	"templates/nvm_KeySequence_Default.h"
+	"templates/nvm_SourceAddress_Default.h"
+	"templates/nvm_LowVoltageStatus_Unsupported.h"
+	"templates/nvm_LowVoltageError_Default.h"
+	"templates/nvm_FlashBankRegionSelect_Default.h"
+	"templates/nvm_BootFlashBankRegion_Default.h"
+	"templates/nvm_ProvideQuadData_Default.h"
+	"templates/nvm_LockPFMSelect_Default.h"
+	"templates/nvm_FlashWPMemoryRangeProvide_Default.h"
+	"templates/nvm_LockBootSelect_Default.h"
+	"templates/nvm_BootPageWriteProtect_Default.h"
+	"templates/nvm_SwapLockControl_Default.h"
+	"templates/nvm_EEPROMEnableControl_Unsupported.h"
+	"templates/nvm_EEPROMStopInIdleControl_Unsupported.h"
+	"templates/nvm_EEPROMOperationModeControl_Unsupported.h"
+	"templates/nvm_EEPROMAddressControl_Unsupported.h"
+	"templates/nvm_EEPROMDataControl_Unsupported.h"
+	"templates/nvm_EEPROMKeySequence_Unsupported.h"
+	"templates/nvm_EEPROMEnableOperationControl_Unsupported.h"
+	"templates/nvm_EEPROMStartOperationControl_Unsupported.h"
+	"templates/nvm_EEPROMLongWriteStatus_Unsupported.h"
+	"templates/nvm_EEPROMOperationAbortControl_Unsupported.h"
+	"templates/nvm_EEPROMErrorStatus_Unsupported.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_writeerrorstatus_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_memorymodificationcontrol_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_operationmode_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_addressmodifycontrol_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_providedata_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_writeoperation_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_keysequence_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_sourceaddress_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_lowvoltagestatus_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_lowvoltageerror_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_flashbankregionselect_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_bootflashbankregion_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_providequaddata_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_lockpfmselect_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_flashwpmemoryrangeprovide_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_lockbootselect_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_bootpagewriteprotect_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_swaplockcontrol_default.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromenablecontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromstopinidlecontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromoperationmodecontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromaddresscontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromdatacontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromkeysequence_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromenableoperationcontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromstartoperationcontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromlongwritestatus_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromoperationabortcontrol_unsupported.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\peripheral\nvm\templates\nvm_eepromerrorstatus_unsupported.h
+
+1480937995 k:\work\rittle\pic32mzef\usb\system\fs\sys_fs_media_manager.h
+	"../../driver/driver_common.h"
+	"../../system/fs/sys_fs.h"
+	"../../system/common/sys_module.h"
+
+1485428040 k:\work\rittle\pic32mzef\usb\system\fs\sys_fs.h
+	<stdint.h>
+	<stdbool.h>
+	<stddef.h>
+
+1479226741 k:\work\rittle\pic32mzef\usb\peripheral\timer\utimer.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	<sys/attribs.h>
+
+1476989105 k:\work\rittle\pic32mzef\usb\usb\src\usb_device_mapping.h
+	<stdint.h>
+	<stdbool.h>
+	"usb_device_local.h"
+	"driver/usb/usbfs/drv_usbfs.h"
+	"driver/usb/usbhs/drv_usbhs.h"
+
+1481246530 k:\work\rittle\pic32mzef\usb\usb\src\usb_device_local.h
+	"../usb_device.h"
+	"../../osal/osal.h"
+
+1479131782 k:\work\rittle\pic32mzef\usb\usb\usb_device_cdc.h
+	<stdint.h>
+	<stdbool.h>
+	"../usb_system_config.h"
+	"usb_common.h"
+	"usb_chapter_9.h"
+	"usb_device.h"
+	"usb_cdc.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\usb\usb_cdc.h
+
+1467735656 k:\work\rittle\pic32mzef\usb\usb\usb_msd.h
+
+1480933384 k:\work\rittle\pic32mzef\usb\usb\usb_device_msd.h
+	<stdint.h>
+	<stdbool.h>
+	"../usb_system_config.h"
+	"../system/common/sys_module.h"
+	"../system/fs/sys_fs_media_manager.h"
+	"../driver/driver_common.h"
+	"usb_common.h"
+	"usb_chapter_9.h"
+	"usb_device.h"
+	"scsi.h"
+	"usb_msd.h"
+
+1467735656 k:\work\rittle\pic32mzef\usb\usb\scsi.h
+
+1592214168 k:\work\rittle\pic32mzef\plibs\plib.h
+	<xc.h>
+	<errno.h>
+	"mz_libs/include/plib_mz.h"
+
+1586397668 k:\work\rittle\pic32mzef\plibs\mz_libs\include\plib_mz.h
+	<xc.h>
+	"peripheral_mz/adc12.h"
+	"peripheral_mz/cmp.h"
+	"peripheral_mz/cvref.h"
+	"peripheral_mz/dma.h"
+	"peripheral_mz/i2c.h"
+	"peripheral_mz/incap.h"
+	"peripheral_mz/int.h"
+	"peripheral_mz/lock.h"
+	"peripheral_mz/nvm.h"
+	"peripheral_mz/osc.h"
+	"peripheral_mz/outcompare.h"
+	"peripheral_mz/pcache.h"
+	"peripheral_mz/pmp.h"
+	"peripheral_mz/ports.h"
+	"peripheral_mz/pps.h"
+	"peripheral_mz/power.h"
+	"peripheral_mz/reset.h"
+	"peripheral_mz/spi.h"
+	"peripheral_mz/system.h"
+	"peripheral_mz/timer.h"
+	"peripheral_mz/rtcc.h"
+	"peripheral_mz/uart.h"
+	"peripheral_mz/wdt.h"
+	"peripheral_mz/can.h"
+
+1479544074 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\adc12.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1586425620 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\int.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	<stdint.h>
+	<sys/attribs.h>
+
+1479324942 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\cmp.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479324958 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\cvref.h
+	<xc.h>
+
+1479324968 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\dma.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479324978 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\i2c.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1479324988 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\incap.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1480585950 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\lock.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1592227335 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\nvm.h
+	<xc.h>
+	"../peripheral_mz/common.h"
+	"../peripheral_mz/int.h"
+
+1479324948 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\common.h
+	<assert.h>
+	<stdint.h>
+	<string.h>
+	<sys/kmem.h>
+
+1480660654 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\osc.h
+	<xc.h>
+	"../peripheral_mz/common.h"
+
+1479325058 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\outcompare.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479325094 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\pcache.h
+	<xc.h>
+
+1479325102 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\pmp.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479521852 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\ports.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1479325126 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\pps.h
+	<xc.h>
+
+1479454570 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\power.h
+	<xc.h>
+	"../peripheral_mz/lock.h"
+
+1480024998 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\reset.h
+	<xc.h>
+	"../peripheral_mz/lock.h"
+
+1479325148 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\spi.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1480640856 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\system.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+	"../peripheral_mz/lock.h"
+	"../peripheral_mz/pcache.h"
+
+1479544816 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\timer.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1558022824 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\rtcc.h
+	<xc.h>
+	"../peripheral_mz/int.h"
+
+1480665816 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\uart.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
+1479454770 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\wdt.h
+	<xc.h>
+
+1559402702 k:\work\rittle\pic32mzef\addons2.h
+	"platform.h"
+
+1562581053 k:\work\rittle\pic32mzef\drivers\drv_lcd4.h
+	"..\platform.h"
+
+1560334602 k:\work\rittle\pic32mzef\drivers\drv_st77xx.h
+	"..\platform.h"
+
+1562581053 k:\work\rittle\pic32mzef\drivers\drv_lcds.h
+	"..\platform.h"
+
+1562581107 k:\work\rittle\pic32mzef\drivers\drv_trspi.h
+	"..\platform.h"
+
+1586410532 k:\work\rittle\pic32mzef\plibs\mz_libs\include\peripheral_mz\can.h
+	<xc.h>
+	<GenericTypeDefs.h>
+	"../peripheral_mz/int.h"
+
